@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --background-image: url(./assets/ilusão-geometrica.gif);
+  --object-fit: cover;
+  --background-repeat: no-repeat;
+  
+}
+
+body{
+  background-image: var(--background-image);
+  background-repeat: var(--background-repeat);
+  background-size: var(--object-fit);
+}
